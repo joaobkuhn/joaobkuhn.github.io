@@ -1,0 +1,89 @@
+.theme {
+    background-color: white;
+
+}
+
+.dark {
+    margin-left: 85%;
+    display: inline-block;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+
+.light {
+   margin-left: 0px;
+   display: inline-block;
+}
+
+button {
+    display: inline-block;
+}
+
+.menu {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+    color: black;
+}
+
+.materia1 {
+    font-size: 24px;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+
+.materia2 {
+
+    font-size: 24px;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    margin: 15px 25% 15px 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    
+
+}
+
+
+a {
+    
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+ul {
+    margin: 5px 20% 15px 15%;
+}
+
+.eletrica {
+    border: solid 3px darkkhaki;
+    padding: 0;
+    margin: 50px 20% 0 20%;
+    text-align: center;
+    border-radius: 15px;
+    background-color: khaki;
+    
+}
+
+    .hidro {
+    border: solid 3px blue;
+    margin-top: 50px;
+    border-radius: 15px;
+    margin: 50px 20% 0 20%;
+    background-color: dodgerblue;
+}

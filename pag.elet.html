@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="elet.css" />
+</head>
+
+<body class="theme" id="theme">
+    <div>
+
+        <button class="dark" onclick="darkmode()">dark mode</button>
+        <button class="light" onclick="lightmode()">light mode</button>
+    </div>
+
+    <div>
+        <p>escolha o tipo do ambiente</p>
+       
+        <select>
+            <option value="banheiro">Banheiro</option>
+            <option value="sala">Salas ou dormitório</option>
+            <option value="cozinha">Cozinha, copa, área de serviço, lavanderia</option>
+            <option value="varanda">Varanda</option>
+            <option value="demais">demais dependências</option>
+
+        </select><br/>
+        
+        <input type="number" id="area" placeholder="insira a área (m²)"><br/>
+        
+        <input type="number" placeholder="insira o perímetro (m)"><br/>
+        
+        <button onclick="calcularpotencia()">Calcular potência</button><br/>
+
+        <p id="potenciacalculada"></p>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="scriptELET.js"></script>
+</body>
+
+</html>

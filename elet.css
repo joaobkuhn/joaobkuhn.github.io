@@ -1,0 +1,19 @@
+.dark {
+    margin-left: 85%;
+    display: inline-block;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+
+.light {
+   margin-left: 0px;
+   display: inline-block;
+}
+
+input {
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 15px;
+}
